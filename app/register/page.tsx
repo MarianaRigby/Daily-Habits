@@ -19,7 +19,7 @@ export default function Register() {
   const [fullName, setFullName] = useState("");
   const [error, setError] = useState("");
 
-  const handleRegister = async (e) => {
+  const handleRegister = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError("");
     setPasswordError("");
