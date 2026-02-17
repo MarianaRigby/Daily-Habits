@@ -69,3 +69,20 @@ export default async function Sidebar() {
     </aside>
   );
 }
+// "use client";
+
+// import { logout } from "../actions/logout";
+
+// export default function SideBar() {
+//   return (
+//     <nav>
+//       <button
+//         onClick={async () => {
+//           await logout();
+//         }}
+//       >
+//         Cerrar sesión
+//       </button>
+//     </nav>
+//   );
+// }
